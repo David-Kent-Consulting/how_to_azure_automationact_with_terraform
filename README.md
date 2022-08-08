@@ -32,3 +32,10 @@ docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mc
 | Terraform azurerm plugin       | 2.38.0            | Download using terraform init                                                       |
 | Terraform azureread plugin     | 2.26.1            | Download using terraform init                                                       |
 
+FILE LIST
+=========
+| File Name             | Purpose                                                                        |
+|-----------------------|--------------------------------------------------------------------------------|
+| 001_main.tf           | Pin Terraform module versions, define backend storage                          |
+| 005_variables.tf      | We define our global variables here, but you may choose to do this differently.|
+
