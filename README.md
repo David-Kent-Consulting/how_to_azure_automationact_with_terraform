@@ -23,6 +23,9 @@ container instance would look like:
 
 docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mcr.microsoft.com/azure-cli:2.38.0
 
+See more about running the Azure CLI container innstance at https://github.com/Azure/azure-cli under
+"Developer Installation".
+
 | Package Name                   | Required\nVersion | Package Source                                                                      |
 |--------------------------------|-------------------|-------------------------------------------------------------------------------------|
 | Python                         | 3.8.13            | Your OS provider or from https://www.python.org/downloads/                          |
