@@ -10,7 +10,7 @@ This public repository has been created to show cloud programmers how to create 
 automation account using Terraform. We cover all of the steps that Microsoft had once
 covered in Azure Issue 4431. Unfortunately Microsoft removed the issue report with
 what was an excellent code example. This is our way of helping the developer community
-who has helped us on so many times.
+who has helped us on so many times. Happy coding!
 
 REQUIREMENTS
 ============
@@ -34,9 +34,10 @@ docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mc
 
 FILE LIST
 =========
-| File Name              | Purpose                                                                        |
-|------------------------|--------------------------------------------------------------------------------|
-| 001_main.tf            | Pin Terraform module versions, define backend storage                          |
-| 005_variables.tf       | We define our global variables here, but you may choose to do this differently.|
-| 010_resource_groups.tf | Define the manages resource group                                              |
+| File Name                 | Purpose                                                                        |
+|---------------------------|--------------------------------------------------------------------------------|
+| 001_main.tf               | Pin Terraform module versions, define backend storage                          |
+| 005_variables.tf          | We define our global variables here, but you may choose to do this differently.|
+| 010_resource_groups.tf    | Define the manages resource group                                              |
+| 020_automation_account.tf | Defines all components of the baseline Azure automation account.               |
 
