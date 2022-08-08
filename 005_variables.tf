@@ -19,7 +19,7 @@ CAVEAT:     It is our practice to define global vars here, and to define
 # Your subscription name goes here
 variable "subscription_name" {
   type = string
-  default = "Azure subscription 1"
+  default = "your subscription name here"
 }
 
 variable "location" {
