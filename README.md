@@ -41,3 +41,7 @@ FILE LIST
 | 010_resource_groups.tf    | Define the manages resource group                                              |
 | 020_automation_account.tf | Defines all components of the baseline Azure automation account.               |
 
+NO WARRANTEE
+============
+This code example is provided to the community as open source. As such, it is provide "As Is" without
+warrantee.
