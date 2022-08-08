@@ -18,7 +18,7 @@ These are the package minimum package requirements as of the time of this code c
 This is the hard way. These days we run container instances. Microsoft explains this best
 with an Azure Ubuntu AZ CLI interface with everything you need except for Terraform,
 which is quite easy to make available to the container instance via a persistent
-storage mount from yourn local developer desktop. A simple example of a pull to run this
+storage mount from your local developer desktop. A simple example of a pull to run this
 container instance would look like:
 
 docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mcr.microsoft.com/azure-cli:2.38.0
