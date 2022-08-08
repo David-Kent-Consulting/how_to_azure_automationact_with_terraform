@@ -84,7 +84,7 @@ resource "azuread_application" "run_as_account_name" {
 /*
 
 
-# 3. Import the certificate into azuread_service_principal_certificate
+3. Import the certificate into azuread_service_principal_certificate
 Requires that the cert be generated. This action to be performed each time we switch automation accounts
 in a blue/green model.
 Example for linux systems follows below:

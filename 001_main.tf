@@ -59,10 +59,10 @@ event of corruption of this vital file.
 
 */
   backend "azurerm" {
-      resource_group_name     = "kent_howtoseries_rg"
-      storage_account_name    = "tfstorage7a305jf2023"
+      resource_group_name     = "your_resourcegroup_rg"
+      storage_account_name    = "yoursatgactnamehere"
       container_name          = "tfstatefiles"
-      key                     = "howto_series.tfstate"
+      key                     = "yourblobfile.tfstate"
   }
 
 }
