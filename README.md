@@ -34,8 +34,9 @@ docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mc
 
 FILE LIST
 =========
-| File Name             | Purpose                                                                        |
-|-----------------------|--------------------------------------------------------------------------------|
-| 001_main.tf           | Pin Terraform module versions, define backend storage                          |
-| 005_variables.tf      | We define our global variables here, but you may choose to do this differently.|
+| File Name              | Purpose                                                                        |
+|------------------------|--------------------------------------------------------------------------------|
+| 001_main.tf            | Pin Terraform module versions, define backend storage                          |
+| 005_variables.tf       | We define our global variables here, but you may choose to do this differently.|
+| 010_resource_groups.tf | Define the manages resource group                                              |
 
