@@ -21,7 +21,7 @@ which is quite easy to make available to the container instance via a persistent
 storage mount from your local developer desktop. A simple example of a pull to run this
 container instance would look like:
 
-docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mcr.microsoft.com/azure-cli:2.38.0
+"docker run -u $(id -u):$(id -g) -v ${HOME}:/home/az -e HOME=/home/az --rm -it mcr.microsoft.com/azure-cli:2.38.0"
 
 See more about running the Azure CLI container innstance at https://github.com/Azure/azure-cli under
 "Developer Installation".
