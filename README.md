@@ -20,7 +20,7 @@ with an Azure Ubuntu AZ CLI interface with everything you need except for Terraf
 which is quite easy to make available to the container instance via a persistent
 storage mount from your local developer desktop. 
 
-See more about running the Azure CLI container innstance at https://github.com/Azure/azure-cli under
+See more about running the Azure CLI container instance at https://github.com/Azure/azure-cli under
 "Developer Installation".
 
 | Package Name                   | Required\nVersion | Package Source                                                                      |
